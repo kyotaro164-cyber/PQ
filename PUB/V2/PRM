@@ -478,8 +478,8 @@ for _, workoutType in ipairs(workoutTypes) do
     gymToggles[workoutType] = toggle
 end
 
-infoTab:AddLabel("Made By:PQ")
-infoTab:AddLabel("SCRIPT OWNER||PRIMO QPAL")
+infoTab:AddLabel("Made By: PQ")
+infoTab:AddLabel("SCRIPT OWNER-PRIMO QPAL")
 infoTab:AddLabel("")
 infoTab:AddLabel("araymo pakak kwekkwek panset kantun pisbol")
 infoTab:AddLabel("")
@@ -2714,7 +2714,6 @@ end)
 timeDropdown:Add("Night")
 timeDropdown:Add("Day")
 timeDropdown:Add("Midnight")
-
 --// ANTI AFK
 local VirtualUser = game:GetService("VirtualUser")
 local Players = game:GetService("Players")
