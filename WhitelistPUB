@@ -84,6 +84,6 @@ local success, result = pcall(function()
 end)
 
 if not success then
-    warn("Failed to load MainScript: " .. tostring(resul
-t))
+    warn("Failed to load MainScript: " .. tostring(resu
+lt))
 end
